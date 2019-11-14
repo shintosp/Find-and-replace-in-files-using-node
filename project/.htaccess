@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} ^.*/index\.html 
+RewriteCond %{SERVER_PORT} ^8002$
+RewriteRule ^(.*)index.html$ https://www.maronicklaw.com/$1 [R=301,L]

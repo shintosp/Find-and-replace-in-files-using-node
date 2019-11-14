@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="/design/css/site.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/design/css/dynamic-products.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/design/css/practice-products.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/design/css/print.css" media="print" />
+<link type="text/css" rel="stylesheet" href="/design/css/handheld.css" media="handheld" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<!--#include virtual="/content/includes/head/head.shtml" -->
+</head>
+<body class="design home">
+<!--[if IE]> <div id="ie"> <![endif]-->
+<!--[if IE 6]> <div id="ie6"> <![endif]-->
+<ul class="screenElement" id="skipToLinks">
+	<li id="skipToNav"><a href="#navigationMain">Skip to navigation</a></li>
+	<li><a href="#content">Skip to content</a></li>
+</ul>
+<div id="banner">
+	<div id="firmName">${site.data.firmName}</div>
+</div>
+<div id="containerColumns">
+	<div id="columnMain">
+		<div id="content">
+			<div id="pageTitle">
+				<h1><div id="FSPpageTitle" fsp="pageTitle"></div></h1>
+			</div>
+			<div id="FSPcontent" fsp="content"></div>
+		</div>
+	</div>
+	<div id="columnSide">
+		<div id="navigationMain">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/Practice-Areas/">Practice Areas</a></li>
+				<li><a href="/About/">About</a></li>
+				<li><a href="/Contact.shtml">Contact Us</a></li>
+			</ul>
+		</div>
+		<div id="navigationPractice">
+			<p><strong>Practice Areas</strong></p>
+			<div id="indexPractice-Areas" fsp="design"></div>
+		</div>
+		<div id="contactInformation">
+			<div id="ContactModule" fsp="ContactModule" moduleName="Contact Module"></div>
+		</div>
+	</div>
+	<div id="geographicalFooter">
+		<div id="FSPgeographicalFooter" moduleName="Geographical Footer" fsp="HtmlContent"></div>
+	</div>
+	<div id="footer">
+		<div id="navigationLower"><a name="navigationLowerJump"></a>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/Practice-Areas/">Practice Areas</a></li>
+				<li><a href="/About/">About</a></li>
+				<li><a href="/Contact.shtml">Contact Us</a></li>
+			</ul>
+		</div>
+		<div id="finePrint">
+			<p id="copyright">© <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL" --> by <a href="https://pview.findlaw.com/cmd/view?wld_id=${site.data.WLDID}&amp;pid=1" target="_blank">${site.data.firmName}</a><#if !site.data.firmName?ends_with(".")>.</#if> All rights reserved. <a href="/Disclaimer.shtml">Disclaimer</a> | <a href="/Site-Map.shtml">Site Map</a></p>
+			<p id="branding"><!--#include virtual="/includes/branding.shtml" --></p>
+		</div>
+	</div>
+</div>
+<!--[if IE 6]> </div> <![endif]-->
+<!--[if IE]> </div> <![endif]-->
+<script type="text/javascript" src="/design/scripts/highlight.js"></script>
+</body>
+</html>

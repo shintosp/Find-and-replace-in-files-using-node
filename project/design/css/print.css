@@ -1,0 +1,53 @@
+/* FS PUBLISHER - PRINT STYLESHEET - UPDATED 11-12-2008 */
+
+body, input, textarea, option, select { font-family: "Times New Roman", Times, serif; }
+body { font-size: 1.3em; }
+
+h1, .cfont7, h2, .cfont6, #content big.profiletopname, h3, .cfont5, .cbodyhdr1, .cbodyhdr2, .profilecommtextUpr, .profilecommtexthdr, .profileheader, h4, .cfont4, .cbodyhdr4, h5, .cfont3, h6, .cfont1 { color: #000000; }
+a:link, a:hover, a:visited, a:active { text-decoration: underline; color: #000000; }
+
+/* Update to Print styles per QA Definitions 10.2011 */
+.findlawPlayer, #content img, #containerIntakeFormI, .containerIntakeFormIII, #containerIntakeFormIV, #clickToChat, #navigationSocial { display: none; }
+
+/* sIFR STYLES */
+.sIFR-flash, .sIFR-flash object, .sIFR-flash embed { display: none; height: 0; width: 0; position: absolute; overflow: hidden; }
+span.sIFR-alternate { visibility: visible; display: block; position: static; width: auto; height: auto; left: auto; top: auto; }
+
+/* STANDARD ELEMENTS */
+.printElement { display: block; width: 100%; }
+.screenElement { display: none; }
+#content .callOut { padding: 1em; background: #FFFFFF; color:#000000; margin-bottom: 1.2em; border: 1px solid #000000; }
+body img { display: none; }
+#content img { display: inline; }
+
+/* CUSTOM DESIGN ELEMENTS */
+body.design { text-align: left; background: #FFFFFF; }
+#banner { width: auto; margin: 0; padding: 0; text-align: left; border-width: 0 0 1px 0; border-color: #000000; border-style: solid; background: #FFFFFF; }
+	#firmName { text-align: left; padding: 0; color: #000000; font-size: 1.8em; border-bottom: 0; border-top: 0; border-width: 0; border-color: #000000; border-style: solid; letter-spacing: -.05em; font-family: Georgia, "Times New Roman", Times, serif; font-size: 3em; font-weight: normal; line-height: .9em; }
+#containerColumns { background: #FFFFFF; width: auto; margin: 0; text-align: left; padding: 1.2em 0; }
+	#columnMain { float: none; width: auto; }
+		#content { padding: 0; }
+			#pageTitle {  }
+				#pageTitle h1 {  }
+	#columnSide { float: none; width: auto; }
+		#navigationMain{ display: none; }
+			#navigationMain ul { list-style-type: none; margin: 0; padding: 0; }
+				#navigationMain li { display: block; }
+					#navigationMain a { font-weight: bold; background: #FFFFFF; display: block; padding: .6em; text-decoration: none; color: #000000; margin-right: 5%; }
+					#navigationMain a:hover, #navigationMain a:focus { color: #000000; background: #FFFFFF; }
+					#navigationMain a:active, #navigationMain a.current { color: #000000; background: #FFFFFF; }
+		#navigationPractice { display: none; }
+			#navigationPractice p { background: #FFFFFF; text-transform: uppercase; padding: 1em 1em .4em 1em; color: #000000; }
+					#navigationPractice ul { list-style-type: none; margin: 0; padding: 0; font-size: 1em; }
+						#navigationPractice li { display: block; }
+							#navigationPractice a { font-weight: bold; background: #FFFFFF; display: block; padding: .6em .6em .6em 3em; text-decoration: none; color: #000000; }
+							#navigationPractice a:hover, #navigationPractice a:focus { color: #000000; background: #FFFFFF; }
+							#navigationPractice a:active, #navigationPractice a.current { color: #000000; background: #FFFFFF; }
+	#footer { font-size: 1em; padding-top: 0; text-align: left; clear: both; border-top: 1px solid #000000; }
+		#navigationLower{ display: none; }
+			#navigationLower ul { list-style-type: none; margin: 0; padding: 0; }
+				#navigationLower li { display: block; margin: 0; }
+					#navigationLower a { margin: 0 1.5em 0 0; }
+		#finePrint { padding: 10px 0; border-top: 0 solid #000000; }
+			p#copyright { padding: 0; }
+			p#branding {  }

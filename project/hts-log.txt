@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 24 Sep 2019 15:03:45 at https://www.maronicklaw.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps0u1%s%uN100%I0p3DaK0H0%kf2A25000%f0#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F  -%l "en, *" https://www.maronicklaw.com/ -O1 "C:\Site Hosting Sites\www.maronicklaw.com\www.maronicklaw.com" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:06:04	Error: 	"Not Found" (404) at link https://www.maronicklaw.com/POST (from connect.facebook.net/en_US/fbevents.js)
+15:11:44	Error: 	"Not Found" (404) at link https://www.maronicklaw.com/blog/2018/may/maryland-boating-accidents-in-2018-already-at-ne/blog/2017/september/boating-under-the-influence-boating-while-intoxi/ (from https://www.maronicklaw.com/blog/2018/may/maryland-boating-accidents-in-2018-already-at-ne/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 2 seconds : 336 links scanned, 334 files written (47276328 bytes overall) [39397941 bytes received at 81738 bytes/sec], 12373531 bytes transferred using HTTP compression in 247 files, ratio 34%
+(2 errors, 0 warnings, 0 messages)
